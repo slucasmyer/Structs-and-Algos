@@ -6,3 +6,8 @@ fn digitize(n: u64) -> Vec<u8> {
         .rev()
         .collect::<Vec<u8>>()
 }
+
+fn main() {
+    let x = digitize(653643);
+    println!("{:?}", x);
+}
